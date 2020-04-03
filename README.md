@@ -3,22 +3,22 @@ Burying sibling cards will now also bury cards of any related notes.
 This add-on only works on Anki desktop, not on iOS, Android or AnkiWeb.
 
 ### Using this add-on
-**Create a relation:** in the browser, select each note you want in your new relation.
+* **Create a relation:** in the browser, select each note you want in your new relation.
 Then either press `Ctrl+Alt+E` or select `Edit>create a relation`.
 A new relation will be created and can be seen in the Tags of each Card.
 
-**Delete a relation:** to delete relation `r`, just delete the tag `relation_r` (or `customPrefix_r` if you've changed the default settings.)
+* **Delete a relation:** to delete relation `r`, just delete the tag `relation_r` (or `customPrefix_r` if you've changed the default settings.)
 This can be done with the `Backspace` key in the Tags field.
 
-**See relations:** select a note in the browser. Then either press `Ctrl+Alt+Shift+E` or select `Edit>see related notes` to see only the notes it is related to.
+* **See relations:** select a note in the browser. Then either press `Ctrl+Alt+Shift+E` or select `Edit>see related notes` to see only the notes it is related to.
 
 ### Configuration
 Two notes are related if they have matching tags of the default form `relation_xxxxxxxx`, where `xxxxx` is a generated value.
 Both the prefix and suffix can be changed.
 
-**Change prefix:** you can change the default `relation_` to a prefix of your choosing.
+* **Change prefix:** you can change the default `relation_` to a prefix of your choosing.
 
-**Change suffix:** rather than generating a numeric suffix number, the add-on can be configured to prompt you for a custom suffix for each relation.
+* **Change suffix:** rather than generating a numeric suffix number, the add-on can be configured to prompt you for a custom suffix for each relation.
 
 To change configuration settings visit `Tools>Add-ons`, select `Bury related notes` in the list of add-ons, then select `Config`.
 

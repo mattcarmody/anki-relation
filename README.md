@@ -13,10 +13,14 @@ This can be done with the `Backspace` key in the Tags field.
 **See relations:** select a note in the browser. Then either press `Ctrl+Alt+Shift+E` or select `Edit>see related notes` to see only the notes it is related to.
 
 ### Configuration
-Two notes are related if they have a tag of the form `relation_xxxxxxxx`, with the same value for `xxxxx`.
-You can change `relation_` to any other prefix in the add-ons configuration. By default, `xxxxx` is a generated value.
-If you'd like, you can choose a meaningful value.
-In the add-on's configuration switch `query relation name` to true, then when you create a relation, anki will prompt you to enter the relation's name.
+Two notes are related if they have matching tags of the default form `relation_xxxxxxxx`, where `xxxxx` is a generated value.
+Both the prefix and suffix can be changed.
+
+**Change prefix:** you can change the default `relation_` to a prefix of your choosing.
+
+**Change suffix:** rather than generating a numeric suffix number, the add-on can be configured to prompt you for a custom suffix for each relation.
+
+To change configuration settings visit `Tools>Add-ons`, select `Bury related notes` in the list of add-ons, then select `Config`.
 
 ### Notes on multiple relations
 A note may belong to multiple relations. If a card of this note is seen, all the cards of all of its relations will be buried.
